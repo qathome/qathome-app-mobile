@@ -12,6 +12,19 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <activity 
+            android:name="MainActivity" 
+            android:label="MainActivity" 
+            android:description="After login, app will run this activity, moving from one fragment to another">
+        </activity>
+        <activity 
+            android:name="LoginActivity" 
+            android:description="Application entry point. If user logged and saved credentials this will immediately go to MainActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
