@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_for_ticket_request_layout"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/id_coda"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:textSize="18pt" />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titolo_coda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:scrollHorizontally="false"
+            android:textSize="7pt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descrizione_coda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:scrollHorizontally="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/stima_coda"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:textStyle="italic" />
+
+</LinearLayout>

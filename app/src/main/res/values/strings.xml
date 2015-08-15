@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NoMoreQ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Fragment principale per la lista delle code -->
+    <string name="titolo_vista_code">Coda Unipi Matricolandosi</string>
+
+    <string name="id_coda_A">A</string>
+    <string name="id_coda_B">B</string>
+    <string name="id_coda_C">C</string>
+
+    <string name="titolo_coda_A">Immatricolazioni con\ndocumenti pronti</string>
+    <string name="titolo_coda_B">Immatricolazioni senza\ndocumenti pronti</string>
+    <string name="titolo_coda_C">Area internet e informazioni\ngenerali</string>
+
+    <string name="descrizione_coda_A">Solo per documenti non online</string>
+    <string name="descrizione_coda_B">solo per concorsi a numero chiuso (es. medicina)</string>
+    <string name="descrizione_coda_C">Tutte le informazioni di cui hai bisogno sono già disponibili al sito www.matricolandosi.it. Per orari dei corsi, inizio delle lezioni e programmi dei corsi rivolgersi ai coordinatori didattici</string>
+
+    <string name="info_coda">In coda: %1$d persone\nAttesa stimata: %2$s min</string>
+
+    <string name="richiesta_ticket_titolo_alert_dialog">Richiesta ticket</string>
+    <string name="richiesta_ticket_messaggio_alert_dialog">Vuoi richiedere un nuovo ticket?</string>
+
+    <!-- Stringhe per l'AsyncTask che effettua il download delle firms -->
+    <string name="titolo_alert_dialog_per_download_firms">Download dei dati</string>
+    <string name="messaggio_alert_dialog_per_download_firms">E\' in corso il download dei dati di Matricolandosi. Attendere ...</string>
+
+    <!--Fragment per la visualizzaxione del ticket -->
+    <string name="aggiorna_info_coda_link">Clicca <b>qui</b> per aggiornare lo stato della coda</string>
+    <string name="info_coda_ticket">circa %1$s persone, %2$s minuti</string>
+    <string name="annullamento_ticket_titolo_alert_dialog">Annullamento ticket</string>
+    <string name="annullamento_ticket_messaggio_alert_dialog">Sei sicuro di voler annullare il ticket?</string>
+
+    <!-- Parametri per la connessione al server e la selezione dei dati che riguardano Matricolandosi -->
+    <string name="firm_url">http://www.qathome.com/api/v1/firms/9bc5f370-966a-3415-8afe-4060909674db/</string>
+    <string name="tickets_suffix">tickets/</string>
+    <string name="queues_suffix">queues/</string>
+
+</resources>
